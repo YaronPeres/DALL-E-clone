@@ -1,11 +1,10 @@
 // vite.config.js
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-
-import path from "path"; // Import the 'path' module
+import path from "path";
 
 // Define an alias for the "pages" folder
-const pagesAlias = path.resolve(__dirname, "src/pages"); // Set the correct path
+const pagesAlias = path.resolve(__dirname, "src/pages");
 
 // https://vitejs.dev/config/
 export default defineConfig({
