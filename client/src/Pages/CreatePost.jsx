@@ -3,7 +3,8 @@ import { useNavigate } from "react-router-dom";
 
 import { preview } from "../assets";
 import { getRandomPrompt } from "../utils";
-import { FormField, Loader } from "../components";
+import FormField from "../components/FormField";
+import Loader from "../components/Loader";
 
 function CreatePost() {
   const navigate = useNavigate();
